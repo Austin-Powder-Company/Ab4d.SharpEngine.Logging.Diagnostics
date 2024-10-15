@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Ab4d.SharpEngine.Logging.Diagnostics</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Austin Powder Company</Authors>
+    <Description>Utilities for writing SharpEngine logs to System.Diagnostics.Trace</Description>
+    <Copyright>Copyright (c) Austin Powder Company 2024</Copyright>
+    <PackageProjectUrl>https://github.com/Austin-Powder-Company/Ab4d.SharpEngine.Logging.Diagnostics</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>SharpEngine;Log;Trace;Diagnostic</PackageTags>
+    <PackageLicenseExpression>0BSD</PackageLicenseExpression>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Ab4d.SharpEngine" Version="2.0.8956" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\sharpengine-contrib\icon.png" Pack="true" PackagePath="\"/>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+  
+</Project>
